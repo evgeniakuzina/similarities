@@ -4,7 +4,7 @@ from nltk.tokenize import sent_tokenize
 def lines(a, b):
     """Return lines in both a and b"""
 
-    # TODO
+    # Compares lines
     lines1 = a.splitlines()
     lines2 = b.splitlines()
 
@@ -24,7 +24,7 @@ def lines(a, b):
 def sentences(a, b):
     """Return sentences in both a and b"""
 
-    # TODO
+    # Compares sentences
     sent1 = sent_tokenize(a)
     sent2 = sent_tokenize(b)
 
@@ -42,7 +42,7 @@ def sentences(a, b):
 def substrings(a, b, n):
     """Return substrings of length n in both a and b"""
 
-    # TODO
+    # Compare substrings
     def extract_substrings(string, x):
         substring = []
         y = 0
